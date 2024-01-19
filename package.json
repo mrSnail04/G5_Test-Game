@@ -1,11 +1,13 @@
 {
   "name": "g5",
   "version": "1.0.0",
+  "homepage": "https://mrsnail04.github.io/G5_Test-Game/",
   "description": "Test work",
   "main": "index.js",
   "scripts": {
     "build": "webpack --config webpack/prod.js ",
-    "start": "webpack-dev-server --config webpack/base.js --open"
+    "start": "webpack-dev-server --config webpack/base.js --open",
+    "deploy": "gh-pages -d dist"
   },
   "dependencies": {
     "gsap": "^3.10.4",
